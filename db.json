@@ -1,14 +1,142 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "buildings": [
+    {
+      "id": "1",
+      "projectNo": 23533,
+      "projectName": "24,mount street,North sydeny",
+      "projectType": "GBS",
+      "buildingName": "d04,megacenter",
+      "area": "hadpsar",
+      "street": "mount st.",
+      "state": "NSW",
+      "postcode": 2160,
+      "region": "north",
+      "zone": "south",
+      "holidays": "18",
+      "target": "none",
+      "rating": "2",
+      "alert": "2"
+    },
+    {
+      "id": "2",
+      "projectNo": 12333,
+      "projectName": "12,mount street,North sydeny",
+      "projectType": "GBS",
+      "buildingName": "f604,megacenter",
+      "area": "hadpsar",
+      "street": "mount st.",
+      "state": "NSW",
+      "postcode": 2060,
+      "region": "north",
+      "zone": "south",
+      "holidays": "18",
+      "target": "none",
+      "rating": "2",
+      "alert": "2"
+    },
+    {
+      "id": "3",
+      "projectNo": 92333,
+      "projectName": "10,mount street,North sydeny",
+      "projectType": "GBS",
+      "buildingName": "f604,megacenter",
+      "area": "hadpsar",
+      "street": "mount st.",
+      "state": "NSW",
+      "postcode": 4060,
+      "region": "north",
+      "zone": "south",
+      "holidays": "18",
+      "target": "none",
+      "rating": "2",
+      "alert": "2"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "sites": [
+    {
+      "id": "2",
+      "projectno": 23533,
+      "projectname": "24 Amour st Revesby - morgen carbon It consulting",
+      "projecttype": "GBS",
+      "clientname": "Austen gen",
+      "clientagentname": "suman",
+      "ptl": "mount st.",
+      "projectgroup": "NSW"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "meter": [
+    {
+      "id": "1",
+      "projectno": "T6987",
+      "projectname": "Frasers-Williams Sonoma",
+      "projecttype": "GBS",
+      "building": "Williams Sonoma",
+      "asset": "IT-Data Collector",
+      "name": "ZZZZ066052-K1",
+      "mpid": "3170",
+      "cumulative": "No",
+      "energyType": "Electricity-NEM12 kVARh",
+      "energyProfile": "System Profile",
+      "monitorIntervalName": "Hourly",
+      "assetServed": "2",
+      "components": "2",
+      "db": "2",
+      "holidays": "2",
+      "target": "2",
+      "alert": "2"
+    },
+    {
+      "id": "2",
+      "projectno": "T6987",
+      "projectname": "Frasers-Williams Sonoma",
+      "projecttype": "GBS",
+      "building": "Williams Sonoma",
+      "asset": "IT-Data Collector",
+      "name": "ZZZZ066052-K1",
+      "mpid": "3170",
+      "cumulative": "No",
+      "energyType": "Electricity-NEM12 kVARh",
+      "energyProfile": "System Profile",
+      "monitorIntervalName": "Hourly",
+      "assetServed": "3",
+      "components": "3",
+      "db": "3",
+      "holidays": "3",
+      "target": "3",
+      "alert": "3"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "1",
+      "projectno": 23533,
+      "projectname": "24 Amour st Revesby - morgen carbon It consulting",
+      "projecttype": "GBS",
+      "clientname": "Austen gen",
+      "clientagentname": "suman",
+      "ptl": "mount st.",
+      "projectgroup": "NSW",
+      "delete": ""
+    },
+    {
+      "id": "2",
+      "projectno": 23533,
+      "projectname": "24 Amour st Revesby - morgen carbon It consulting",
+      "projecttype": "GBS",
+      "clientname": "Austen gen",
+      "clientagentname": "suman",
+      "ptl": "mount st.",
+      "projectgroup": "NSW"
+    },
+    {
+      "id": "3",
+      "projectno": 23533,
+      "projectname": "24 Amour st Revesby - morgen carbon It consulting",
+      "projecttype": "GBS",
+      "clientname": "Austen gen",
+      "clientagentname": "suman",
+      "ptl": "mount st.",
+      "projectgroup": "NSW"
+    }
+  ]
 }
