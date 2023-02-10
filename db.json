@@ -1,4 +1,62 @@
 {
+  "dashboardData": {
+    "consumption": {
+      "id": "1",
+      "title": "8087.3kWh"
+    },
+    "energyCost": {
+      "id": "1",
+      "title": "$1374.6"
+    },
+    "co2e": {
+      "id": "1",
+      "title": "63Kg"
+    },
+    "weatherInfo": {
+      "today": "31.6°C",
+      " title": "Perth",
+      " dec": "Clear",
+      "icon": 21,
+      " bnb": "bnb2",
+      "Pressure": "1014.6",
+      " Humidity": "10%",
+      " Wind": "6.3m/s",
+      "day": [
+        {
+          "day": "Sat",
+          "temp": "12-33°"
+        },
+        {
+          "day": "Sun",
+          "temp": "12-33°"
+        },
+        {
+          "day": "Mon",
+          "temp": "29-44°"
+        },
+        {
+          "day": "Tue",
+          "temp": "29-30°"
+        },
+        {
+          "day": "Wed",
+          "temp": "19-44°"
+        },
+        {
+          "day": "Thu",
+          "temp": "29-34°"
+        },
+        {
+          "day": "Fri",
+          "temp": "29-44°"
+        },
+        {
+          " day": "Sat",
+          "temp": "09-14°"
+        }
+      ]
+    }
+  },
   "buildings": [
     {
       "id": "1",
@@ -138,5 +196,48 @@
       "ptl": "mount st.",
       "projectgroup": "NSW"
     }
-  ]
+  ],
+  "chartData": {
+    "dashboardColumnChart": [
+      {
+        "name": "Bill Usage",
+        "data": [
+          49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1,
+          95.6, 54.4
+        ]
+      },
+      {
+        " name": "Bill Spend",
+        " data": [
+          83.6, 78.8, 98.5, 93.4, 106.0, 84.5, 105.0, 104.3, 91.2, 83.5, 106.6,
+          92.3
+        ]
+      }
+    ],
+    "consumptionChart": [
+      {
+        "name": "Consumption",
+        " type": "column",
+        " yAxis": 1,
+        "data": [
+          27.6, 28.8, 21.7, 34.1, 29.0, 28.4, 45.6, 51.7, 39.0, 60.0, 28.6, 32.1
+        ],
+        "tooltip": {
+          "valueSuffix": "mm"
+        }
+      },
+      {
+        "name": "Consumption-Pre",
+        " type": "spline",
+        "data": [
+          -13.6, -14.9, -5.8, -0.7, 3.1, 13.0, 14.5, 10.8, 5.8, -0.7, -11.0,
+          -16.4
+        ],
+        "tooltip": {
+          " valueSuffix": "°C"
+        }
+      }
+    ],
+    "portFolioChart": []
+  }
 }
