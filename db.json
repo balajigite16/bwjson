@@ -55,7 +55,89 @@
           "temp": "09-14°"
         }
       ]
-    }
+    },
+    "dashboardColumnChart": [
+      {
+        "name": "Bill Usage",
+        "data": [
+          49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1,
+          95.6, 54.4
+        ]
+      },
+      {
+        "name": "Bill Spend",
+        "data": [
+          83.6, 78.8, 98.5, 93.4, 106.0, 84.5, 105.0, 104.3, 91.2, 83.5, 106.6,
+          92.3
+        ]
+      }
+    ],
+    "consumptionChart": [
+      {
+        "name": "Consumption",
+        "type": "column",
+        "yAxis": 1,
+        "data": [
+          27.6, 28.8, 21.7, 34.1, 29.0, 28.4, 45.6, 51.7, 39.0, 60.0, 28.6, 32.1
+        ],
+        "tooltip": {
+          "valueSuffix": "mm"
+        }
+      },
+      {
+        "name": "Consumption-Pre",
+        "type": "spline",
+        "data": [
+          -13.6, -14.9, -5.8, -0.7, 3.1, 13.0, 14.5, 10.8, 5.8, -0.7, -11.0,
+          -16.4
+        ],
+        "tooltip": {
+          " valueSuffix": "°C"
+        }
+      }
+    ],
+    "portFolioChart":[
+      {
+        "name": "Daily(Current)",
+        "marker": {
+        },
+        "data": [
+          5.2,
+          5.7,
+          8.7,
+          13.9,
+          18.2,
+          21.4,
+          25.0,
+          {
+            "y": 26.4
+          },
+          22.8,
+          17.5,
+          12.1,
+          7.6
+        ]
+      },
+      {
+        "name": "Daily(Baseline)",
+         "data": [
+          {
+            "y": 1.5
+          },
+          1.6,
+          3.3,
+          5.9,
+          10.5,
+          13.5,
+          14.5,
+          14.4,
+          11.5,
+          8.7,
+          4.7,
+          2.6
+        ]
+      }
+    ]
   },
   "buildings": [
     {
@@ -112,8 +194,18 @@
   ],
   "sites": [
     {
-      "id": "2",
+      "id": "1",
       "projectno": 23533,
+      "projectname": "24 Revesby - morgen carbon It consulting",
+      "projecttype": "GBS",
+      "clientname": "Austen gen",
+      "clientagentname": "suman",
+      "ptl": "mount st.",
+      "projectgroup": "NSW"
+    },
+    {
+      "id": "2",
+      "projectno": 23543,
       "projectname": "24 Amour st Revesby - morgen carbon It consulting",
       "projecttype": "GBS",
       "clientname": "Austen gen",
@@ -196,48 +288,6 @@
       "ptl": "mount st.",
       "projectgroup": "NSW"
     }
-  ],
-  "chartData": {
-    "dashboardColumnChart": [
-      {
-        "name": "Bill Usage",
-        "data": [
-          49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1,
-          95.6, 54.4
-        ]
-      },
-      {
-        " name": "Bill Spend",
-        " data": [
-          83.6, 78.8, 98.5, 93.4, 106.0, 84.5, 105.0, 104.3, 91.2, 83.5, 106.6,
-          92.3
-        ]
-      }
-    ],
-    "consumptionChart": [
-      {
-        "name": "Consumption",
-        " type": "column",
-        " yAxis": 1,
-        "data": [
-          27.6, 28.8, 21.7, 34.1, 29.0, 28.4, 45.6, 51.7, 39.0, 60.0, 28.6, 32.1
-        ],
-        "tooltip": {
-          "valueSuffix": "mm"
-        }
-      },
-      {
-        "name": "Consumption-Pre",
-        " type": "spline",
-        "data": [
-          -13.6, -14.9, -5.8, -0.7, 3.1, 13.0, 14.5, 10.8, 5.8, -0.7, -11.0,
-          -16.4
-        ],
-        "tooltip": {
-          " valueSuffix": "°C"
-        }
-      }
-    ],
-    "portFolioChart": []
-  }
+  ]
+  
 }
